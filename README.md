@@ -3,6 +3,8 @@
 This Node.js application connects to remote VMs over SSH and oprates the installation, updating and removing of specified services.
 Built with: [Express 4](http://expressjs.com/)
 
+**<em>for the CLI instructions read [this file](https://github.com/kiavashzmk/remote-operator/tree/master/bin/README.md)</em>**
+
 Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
