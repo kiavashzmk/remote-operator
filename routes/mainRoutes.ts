@@ -13,14 +13,10 @@ router.post('/api/remote/install', validator, async (req: Request, res: Response
   });
 });
 
-router.delete(
-  '/api/remote/uninstall',
-  validator,
-  (req: Request, res: Response) => {
-    const config = req.body;
-    uninstall(config);
-    res.send({ success: true, status: 'files deleted from resource' });
-  }
-);
+router.delete('/api/remote/uninstall', validator, (req: Request, res: Response) => {
+  const config = req.body;
+  uninstall(config);
+  res.send({ success: true, status: 'files deleted from resource' });
+});
 
 export { router as mainRoutes };
