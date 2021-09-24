@@ -11,9 +11,8 @@
   },
   "keywords": [],
   "bin": {
-    "remoteopt": "bin/cli.ts"
+    "remoteopt": "bin/cli.js"
   },
-  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {

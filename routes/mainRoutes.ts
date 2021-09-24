@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { upload, install, uninstall } from '../services/ssh-helper';
+import { upload, uninstall } from '../services/ssh-helper';
 import { validator } from '../middlewares/validator';
 
 const router = express.Router();
