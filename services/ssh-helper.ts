@@ -30,6 +30,7 @@ async function upload(config: sshConfig) {
     await ssh.connect(config);
     await ssh.requestShell();
     await ssh.putFile(
+      //  Change this to a node.js application (compressed -> .tar.gz) path you want to upload to VM
       '/Users/apple/node-projects/remote-operator.tar.gz',
       '/root/remote-operator.tar.gz'
     );
