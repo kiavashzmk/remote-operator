@@ -3,7 +3,7 @@
 This is a cli for the Remote Operator application.
 
 Make sure you have [Node.js](http://nodejs.org/) installed.
-follow below instructions to install remote operator cli globali.
+follow below instructions to install remote operator cli globaly.
 
 ```sh
 npm run build
